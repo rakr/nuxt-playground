@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   build: {
-    transpile: ['@heroicons/vue'],
+    transpile: ['@heroicons/vue', 'prismjs'],
   },
   css: ['~/assets/css/main.css'],
   postcss: {
